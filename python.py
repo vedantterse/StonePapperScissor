@@ -2,7 +2,7 @@ import random
 
 print('WELCOME FOR STONE PAPPER SCISSOR GAME')
 print('\033[34m ' + 'its you🤠 ' + '\033[0m' ' vs', '\033[32m ' + ' computer🤖 ' + '\033[0m''\n lets see who wins🤨😮‍💨')
-choices = ['stone', 'papper', 'scissor','exit']
+choices = ['stone', 'papper', 'scissor']
 rounds = 4
 computerS = 0
 userS = 0
