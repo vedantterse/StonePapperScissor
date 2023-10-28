@@ -33,6 +33,7 @@ Screenshots
 
 ## Contributions
 Feel free to contribute to this project by submitting issues or pull requests.
+no need to ask for to be assigned for a issue , you can start contributing directly.
 
 ### Support
 If you encounter any issues or have questions, please open an issue on GitHub.
