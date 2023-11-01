@@ -12,9 +12,9 @@ while True:
         userC = input('enter your choice:-(stone/papper/scissor):- ').lower()
         if userC =='exit':
             break
-        if userC not in choices:
+        while userC not in choices:
             print('please enter a valid choice!!')
-            continue
+            userC = input('enter your choice:-(stone/papper/scissor):- ').lower()
         print('\033[34m' + 'user:-' + '\033[0m', userC)
         print('\033[32m' + 'computer:- ' + '\033[0m', computerC)
 
