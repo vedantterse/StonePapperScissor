@@ -42,5 +42,12 @@ while True:
     print()
 
     playagain =input('\033[38;5;118m' +'do you want to play again\033[0m \033[38;5;30m(yes/no):-'+ '\033[0m').lower()
-    if playagain != 'yes':
+    if playagain == "yes":
+        continue
+    while (playagain != "no" and playagain != "yes"): 
+        print("Invalid input. Please enter either 'yes' or 'no'.")
+        playagain =input('\033[38;5;118m' +'do you want to play again\033[0m \033[38;5;30m(yes/no):-'+ '\033[0m').lower()
+        if (playagain == "yes" or playagain == "no"):
+            break
+    if playagain == "no":
         break
